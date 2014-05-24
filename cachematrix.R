@@ -1,11 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function creates a list of functions that calculate the inverse of a
 ##matrix and also set the variables to see if the function has its inverse stored
 
 makeCacheMatrix <- function(x = matrix()) { 
-          i <- NULL
+        i <- NULL
         ##Defines a function that when it is called it takes the variable x and equals it
         ##to the argument. Then sets i to null.
         set <- function(y) {
